@@ -1,0 +1,6 @@
+{
+  "name": "Undangan Digital Rose Gold",
+  "description": "Website undangan pernikahan digital bernuansa Rose Gold yang elegan, rapi, dan profesional, dilengkapi fitur RSVP, Buku Tamu (Wishes), dan Peta Lokasi Interaktif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

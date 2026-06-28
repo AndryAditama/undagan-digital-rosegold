@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600;700&family=Alex+Brush&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", sans-serif;
+  --font-script: "Alex Brush", cursive;
+  
+  --color-rosegold-50: #fdf5f6;
+  --color-rosegold-100: #faf0f1;
+  --color-rosegold-200: #f5d6da;
+  --color-rosegold-300: #ebb5be;
+  --color-rosegold-400: #e093a1;
+  --color-rosegold-500: #d17283;
+  --color-rosegold-600: #b75365;
+  --color-rosegold-700: #a24152;
+  --color-rosegold-800: #873644;
+  --color-rosegold-900: #6d2f3b;
+  --color-rosegold-950: #3c161e;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-rosegold-50);
+    color: var(--color-rosegold-950);
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom animation classes if needed */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
